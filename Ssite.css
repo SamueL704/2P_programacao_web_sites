@@ -1,0 +1,38 @@
+
+#header {
+    justify-content: center;
+    width: 200px;
+    display: flex;    
+    
+}
+body{
+    font-style: arial;
+    text-align: center;
+    color:  #13c7e6;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav{
+    border-top: solid 2px gray;
+}
+nav ul{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+}
+#imagem{
+    width: 400px;
+}
+
+.rodape {
+    font-style: italic;
+    border-top: solid 2px gray;
+    
+}
