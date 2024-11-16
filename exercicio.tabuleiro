@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initil-scale=1.0">
+      <title>tabuleiro samuel</title>
+      <link rel="stylesheet" href="Stabuleiro.css">
+      
+   </head>
+   <body>
+      <h1>Meu tabuleiro</h1>
+      <div id="tabuleiro">
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+         <div class = "quadrado"></div>
+      </div>
+   </body>
+</html>
+
+
+<!---css--->
+
+body {
+    text-align: center;
+}
+h1 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
+}
+
+#tabuleiro {
+    width: 500px;
+    border: 10px solid;
+    border-color: red brown tomato;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.quadrado {
+	width: 100px;
+	height: 100px;
+	
+}
+
+.quadrado:nth-child(even) {
+	background-color: black;
+}
+.quadrado:nth-child(odd) {
+	background-color: lightgray;
+}
